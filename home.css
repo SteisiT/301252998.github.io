@@ -1,0 +1,129 @@
+main,
+section {
+  height: 100vh;
+  width: 100vw;
+}
+
+main {
+  background: black;
+  display: flex;
+}
+
+.prof_info {
+  flex-grow: 1;
+  padding: 5rem 8rem;
+}
+.name_wrap {
+  width: 100%;
+  padding-bottom: 100px;
+}
+h1 {
+  color: var(--primary-light);
+  font-size: 4rem;
+  font-weight: 300;
+}
+h2 {
+  color: var(--primary-color);
+  font-size: 5rem;
+  font-weight: 800;
+  transform: translateX(40px);
+}
+
+#pfp {
+  height: 100vh;
+}
+
+.work_info {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.work_info h3 {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+}
+.work_info p {
+  color: white;
+  font-size: 2.2rem;
+}
+.sold {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sold h3 {
+  width: 8rem;
+}
+.sold p {
+  width: 12rem;
+}
+.info_footer {
+  padding-top: 100px;
+}
+.info_footer button {
+  background: var(--primary-color);
+  border-radius: 40px;
+  padding: 15px 60px;
+  border: none;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+section {
+  background: var(--secondary-color);
+  padding: 5rem 8rem;
+}
+
+.mission {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mission h4 {
+  font-size: 3rem;
+  color: var(--primary-color);
+  font-style: italic;
+}
+.mission p {
+  position: relative;
+  margin-top: 30px;
+  width: 70%;
+  font-style: italic;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: center;
+}
+.mission p img {
+  position: absolute;
+  top: -30px;
+  left: -30px;
+}
+
+.testimonials_wrap {
+  width: 100%;
+  display: flex;
+  gap: 80px;
+  padding: 40px;
+  padding-top: 80px;
+}
+
+.testimonial {
+  background: var(--primary-light);
+  border-radius: 0px 0px 90px 0px;
+  width: 28%;
+  padding: 20px;
+}
+.testimonial p {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+.testimonial h5 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.testimonial h6 {
+  font-weight: 400;
+  font-size: 0.9rem;
+}

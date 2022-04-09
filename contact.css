@@ -1,0 +1,47 @@
+body {
+  width: 100vw;
+  background: var(--primary-color);
+  position: relative;
+}
+
+.sleeve {
+  width: 50vw;
+  background: black;
+  height: 163vh;
+}
+h1 {
+  margin-bottom: 20px;
+}
+form {
+  position: absolute;
+  top: 80px;
+  background: var(--secondary-color);
+  border-radius: 40px;
+  padding: 40px;
+  width: 50vw;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 5px;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  background: var(--primary-light);
+  border-bottom: 1px solid var(--primary-color);
+}
+label {
+  font-size: 1.2rem;
+  display: block;
+}
+input::placeholder {
+  opacity: 0;
+}

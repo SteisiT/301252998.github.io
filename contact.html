@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact | John Dolier</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./contact.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="listings.html">Listings</a>
+      <a href="credits.html">Credits</a>
+    </nav>
+    <div class="sleeve"></div>
+    <form>
+      <h1>Contact Me</h1>
+      <label for="firstname">First Name</label>
+      <input type="text" name="firstname" value="" placeholder="First Name" />
+      <label for="lastname">Last Name</label>
+      <input type="text" name="lastname" value="" placeholder="Last Name" />
+      <label for="phone">Phone Number</label>
+      <input type="tel" name="phone" value="" placeholder="Phone Number" />
+      <label for="email">Email</label>
+      <input type="email" name="email" value="" placeholder="Email" />
+      <label for="type">Property type</label>
+      <select>
+        <option value="house">House</option>
+        <option value="condominium">Condominium</option>
+      </select>
+      <label for="bedrooms">Number of Bedrooms</label>
+      <input
+        type="number"
+        name="bedrooms"
+        value=""
+        placeholder="Number of Bedrooms"
+      />
+      <label for="bathrooms">Number of Bathrooms</label>
+      <input
+        type="number"
+        name="bathrooms"
+        value=""
+        placeholder="Number of Bathrooms"
+      />
+      <label for="price">Price Range (100,000-50,000,000)</label>
+      <input type="range" name="price" min="100000" max="50000000" value="" />
+      <label for="comments">Additional Comments</label>
+      <textarea rows="10" cols="75" name="comments"></textarea>
+    </form>
+  </body>
+</html>

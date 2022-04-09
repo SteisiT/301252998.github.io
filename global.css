@@ -1,0 +1,46 @@
+:root {
+  --primary-color: #ffd700;
+  --primary-light: #ffed8d;
+  --secondary-color: #f7f7f7;
+  --base-color: black;
+  font-family: "Roboto", sans-serif;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  transition: 0.2s ease-in-out;
+}
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+button {
+  cursor: pointer;
+}
+button:hover {
+  filter: saturate(0.7);
+  border-radius: 15px;
+}
+
+nav {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 3;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  gap: 40px;
+}
+nav a {
+  color: white;
+  font-weight: 300;
+}
+nav a:hover {
+  font-weight: 500;
+  margin: 0px 10px;
+}
